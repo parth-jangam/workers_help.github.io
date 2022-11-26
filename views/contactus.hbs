@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+
+
+
+
+
+
+.title
+{
+    font-size: 50px;
+    font-weight: bold;
+    padding: 1.5% 0;
+    color: black;
+}
+
+.title-info
+{
+	padding-bottom: 2%;
+}
+
+
+footer
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 20vh;
+    width: 75%;
+    margin: auto;
+    opacity: 0.2;
+    border-top: 1px solid black;
+    color: black;
+}
+
+@media screen and (max-width: 1295px)
+{
+    footer
+    {
+        width: 95%;
+    }
+}
+
+@media screen and (max-width: 500px)
+{
+    footer
+    {
+        opacity: 0.9;
+    }
+}
+.container {
+            /* border: solid 2px black; */
+            height: 350px;
+            background-image: url("images\ \(3\).jpg");
+            background-repeat: no-repeat;
+            background-size: 1800px 600px;
+            border-radius: 20px;
+
+
+
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+            font-size: 25px;
+            padding-left: 50px;
+            font-weight: bold;
+        }
+
+        .butt {
+            height: 400px;
+            color: yellow;
+            background-image: url("images.png");
+            background-repeat: no-repeat;
+            background-position-x: 20px;
+            background-position-y: 40px;
+
+
+        }
+        #button {
+            border: 2px solid black;
+            position: fixed;
+            margin-left: 90%;
+            height: 30px;
+            width: 60px;
+            border-radius: 10px;
+            background-color: black;
+            color: white;
+            font-weight: bold;
+            font-size: 20px;
+            /* text-align: center;
+             */
+             margin-right: 200px;
+
+        }
+        .head {
+            text-align: center;
+            font-size: 50px;
+            height: 50px;
+            border: solid 2px black;
+            border-radius: 20px;
+            margin-bottom: 10px;
+            padding-bottom: 10px;
+            color: red;
+            background-color: black;
+
+        }
+        
+        .para {
+            margin-left: 480px;
+            margin-top: 70px;
+            font-size: 50px;
+            color: yellow;
+            font-weight: bold;
+        }
+
+        #para {
+            margin-left: 580px;
+            font-size: 50px;
+        }
+       
+        #CONTACT{
+            margin-left: 600px;
+        }
+        .container2{
+            display: grid;
+            grid-template-rows: 100px;
+            width: 500px;
+            margin-left: 450px;
+            padding: 30px;
+            border: solid black 2px ;
+
+
+        }
+        .tex{
+            margin-top: 20px;
+            border-radius: 20px;
+            font-size: 20px;
+            height: 30px;
+            text-align: center;
+        }
+        #tex{
+            margin-top: 0%;
+        }
+        #submit{
+            margin-left: 700px;
+            font-size: 20px;
+            border-radius: 10px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+
+        }
+       
+    </style>
+</head>
+<body>
+    <div class="head">
+        <strong>
+            <tr>h</tr>&nbsp;<tr>a</tr>&nbsp;<em>
+                <tr>k</tr>&nbsp;
+            </em>
+            <tr>c</tr>&nbsp;<tr>e</tr>&nbsp;<em>
+                <tr>z</tr>
+            </em>
+        </strong>
+    </div>
+    <div class="container">
+        <div class="butt">
+            <a  id="button" type="submit" href="/login">Login</a>
+            <div class="b">
+                <a href="/" class="sticky">Home</a>
+                <a href="/contactus" class="sticky">Contact Us</a>
+                <a href="/cropinfo" class="sticky">Crop Info</a>
+                <a href="" class="sticky">Photos</a>
+                <a href="/learning" class="sticky">Learn processing</a>
+                <a href="/review" class="sticky">Review</a>
+            </div>
+            <div class="jangam">
+            <p class="para">Offering best plateform</p>
+            <p class="para" id="para">for farmers!!</p>
+        </div>
+            <!-- <h1 class="shet">शेतकरी राजा</h1> -->
+        </div>
+    </div>
+            <h1 id="CONTACT">CONTACT US</h1>
+            
+                <form action="/contactus/submit" method="post" >
+                    <div class="container2">
+                        <!-- <label for="firstname"></label> -->
+                        <input class="tex" type="text" name="firstname" id="" placeholder="Enter Name">
+                        
+                        <!-- <label for="lastname"></label> -->
+                        <input class="tex" type="text" name="lastname" id="tex" placeholder="Last Name">
+                        
+                        <!-- <label for="email"></label> -->
+                        <input class="tex" type="text" name="email" id="" placeholder="Enter Email">
+                        
+                    </div>
+                    <button  type="submit"  name="" id="submit">submit</button>
+                </form>
+            
+            
+
+
+    <footer>
+        <a href="#" target="_blank"><img class="social-media-img" src="./static/img/social_media/facebook.svg" alt="Facebook"></a>
+        <a href="#" target="_blank"><img class="social-media-img" src="./static/img/social_media/github.svg" alt="GitHub"></a>
+        <a href="#" target="_blank"><img class="social-media-img" src="./static/img/social_media/instagram.svg" alt="Instagram"></a>
+
+        <a href="#"><img class="codecell-img" src="./static/img/codecell_logo.svg" alt="TSEC CodeCell"></a>
+
+        <a href="#" target="_blank"><img class="social-media-img" src="./static/img/social_media/linkedin.svg" alt="LinkedIn"></a>
+        <a href="#" target="_blank"><img class="social-media-img" src="./static/img/social_media/twitter.svg" alt="Twitter"></a>
+        <a href="#" target="_blank"><img class="social-media-img" src="./static/img/social_media/youtube.svg" alt="YouTube"></a>
+    </footer>
+</body>
+</html>
